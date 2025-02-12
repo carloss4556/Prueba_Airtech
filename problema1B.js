@@ -5,7 +5,7 @@ const person = Object.freeze({
     }
 });
 
-// Intento de modificar el nombre (esto no tendrá efecto)
+// Intento de modificar el nombre 
 person.name = "Carlos";
 
 // Ejecutar el método
